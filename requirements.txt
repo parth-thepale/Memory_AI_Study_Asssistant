@@ -1,5 +1,3 @@
 streamlit
 google-generativeai
 python-dotenv
-gemini-api-key
-ngrok-auth-token
