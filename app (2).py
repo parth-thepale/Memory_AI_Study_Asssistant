@@ -1,9 +1,8 @@
 
 import streamlit as st
-
 import google.generativeai as genai
 
-gemini_api_key = "<>"
+gemini_api_key = st.secrets["Chat_bot_2"].strip()
 
 genai.configure(api_key=gemini_api_key)
 
